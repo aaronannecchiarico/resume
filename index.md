@@ -1,3 +1,8 @@
+---
+layout: default
+title: Aaron Annecchiarico - Resume
+---
+
 # Aaron Annecchiarico
 aannecchiarico@protonmail.com | 706-992-8945 | Cataula, GA | github.com/aaronannecchiarico
 
