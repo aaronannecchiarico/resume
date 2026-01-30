@@ -1,0 +1,124 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* Print button styles */
+.print-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.print-button:hover {
+  background-color: #555;
+}
+
+/* Print-specific styles */
+@media print {
+  /* Hide non-essential elements */
+  .print-button,
+  header,
+  footer,
+  .view-on-github,
+  a[href="/slim"],
+  a[href="/"] {
+    display: none !important;
+  }
+
+  /* Reset page layout */
+  body {
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #000;
+    background: #fff;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Heading adjustments */
+  h1 {
+    font-size: 20pt;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 3px;
+  }
+
+  h3 {
+    font-size: 12pt;
+    margin-top: 12px;
+    margin-bottom: 5px;
+  }
+
+  /* Tighten spacing */
+  p, li {
+    margin-bottom: 3px;
+  }
+
+  ul {
+    margin: 5px 0;
+    padding-left: 20px;
+  }
+
+  /* Blockquote (company descriptions) */
+  blockquote {
+    margin: 5px 0;
+    padding: 3px 10px;
+    border-left: 2px solid #666;
+    font-style: italic;
+    color: #555;
+  }
+
+  /* Table adjustments */
+  table {
+    font-size: 10pt;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 4px 8px;
+  }
+
+  /* Links - show as plain text */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* Page break control */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+
+  /* Hide horizontal rules in print */
+  hr {
+    display: none;
+  }
+}
