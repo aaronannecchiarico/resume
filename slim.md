@@ -19,7 +19,7 @@ Software Engineer with 8+ years of experience in full-stack development, softwar
 
 ## Skills
 
-**Frontend:** React, Vue.js, TypeScript | **Backend:** PHP, Python, Laravel, FastAPI | **Infrastructure:** AWS, Docker, Kubernetes | **Tools:** GitHub Actions, Jenkins, Turborepo
+**Frontend:** React, Vue.js, TypeScript | **Backend:** PHP, Python, Laravel, FastAPI | **Infrastructure:** AWS, Docker, Kubernetes | **Tools:** GitHub Actions, Jenkins, Turborepo, pnpm, Composer
 
 ---
 
@@ -63,4 +63,4 @@ Software Engineer with 8+ years of experience in full-stack development, softwar
 
 ---
 
-[View full resume](/) | <button class="print-button" onclick="window.print()">Save as PDF</button>
+[View full resume](/resume) | <button class="print-button" onclick="window.print()">Save as PDF</button>

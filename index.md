@@ -9,7 +9,7 @@ title: Aaron Annecchiarico - Resume
 
 📧 aannecchiarico@protonmail.com | 📍 Cataula, GA | 🔗 [github.com/aaronannecchiarico](https://github.com/aaronannecchiarico)
 
-[View slim version](/slim) | <button class="print-button" onclick="window.print()">Save as PDF</button>
+[View slim version](/resume/slim) | <button class="print-button" onclick="window.print()">Save as PDF</button>
 
 ---
 
